@@ -20,7 +20,7 @@ namespace DNT_Assignment.Controllers
 
 
         [HttpPost]
-        public IActionResult Index(SignUpViewModel ModelData)
+        public IActionResult SignUp(SignUpViewModel ModelData)
         {
 
             if (ModelState.IsValid)
